@@ -34,14 +34,12 @@ public class ItemList {
     }
     public item getmList(){
 
-      //  System.out.println(mlist.toString());
+
         return mlist;
     }
         public  ArrayList<String> fortest() {
 
             ArrayList<String> list= mlist.getList();
-
-
 
            return list;
 

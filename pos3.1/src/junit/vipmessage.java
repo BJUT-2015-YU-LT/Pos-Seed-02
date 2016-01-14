@@ -56,4 +56,18 @@ public class vipmessage {
         System.out.println(vipm.toString());
         return vipm;
     }
+
+    public  String fortest() {
+
+        String a = "";
+        for (vip b : vipm) {
+            a +=b.getvip();
+            a+=b.getVc();
+            a+=b.getMember()+" ";
+
+        }
+        System.out.println(a);
+        return a;
+
+    }
 }

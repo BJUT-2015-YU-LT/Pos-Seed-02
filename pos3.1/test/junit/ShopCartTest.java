@@ -24,10 +24,7 @@ public class ShopCartTest {
         a.setuit("瓶");
         a.setvipdiscount(0.9);
         a.addnum();
-        a.addnum();
-        a.addnum();
-        a.addnum();
-        a.addnum();
+
 
         cm a1= new cm();
         a1.setbat("ITEM000001");
